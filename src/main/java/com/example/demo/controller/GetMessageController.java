@@ -8,6 +8,6 @@ public class GetMessageController {
 
 	@GetMapping("/getMessage")
 	public String getMessage() {
-		return "one";
+		return "one two";
 	}
 }
